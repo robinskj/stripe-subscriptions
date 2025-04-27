@@ -25,9 +25,7 @@ export const Hero = () => {
 						<img src='https://made-with.prisma.io/dark.svg' width={220} height={130} alt='' />
 					</a> */}
 
-					<p className='text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0 text-balance'>
-						Stripe subscriptions are intimidating, but they don't have to be. Let's prove it.
-					</p>
+					
 
 					<div className='space-y-4 md:space-y-0 md:space-x-4'>
 						<Button className='w-full md:w-1/3'>Get Started</Button>
