@@ -9,7 +9,7 @@ import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 
 export async function checkAuthStatus() {
 
-    const { getUser } = await getKindeServerSession(); // returns a function to get user from session
+    const { getUser } = getKindeServerSession(); // returns a function to get user from session
     const user = await getUser();
     if (!user) {  // Not authenticated
         return { success: false} ;
